@@ -9,12 +9,14 @@ let tile = document.getElementById('tiletext');
 
 console.log(logos);
 
-// Function
+// Functions
+// Change style of tile-text
 let styleChange = function() {
     tile.classList.toggle('tile-normal');
     tile.classList.toggle('tile-light');
 };
 
+// Change colour of logo
 let colourChange = function() {
     for(let i = 0; i < logos.length; i++) {
         if(logos[i].classList.contains('yellow')) {
@@ -27,6 +29,17 @@ let colourChange = function() {
         }
     }
 };
+
+// Assign colours to colour-fill
+let colourtiles = Array.from(document.getElementsByClassName('colour-fill'));
+function colours() {
+    for(let i = 0; i < colourtiles.length; i++) {
+        console.log(colourtiles[i]);
+        colourtiles[i].style.backgroundColor = "var(--" + colourtiles[i].id + ")";
+    }
+}
+
+colours();
 
 
 // Event listener
