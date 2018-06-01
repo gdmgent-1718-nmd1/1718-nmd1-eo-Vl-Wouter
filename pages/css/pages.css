@@ -98,7 +98,7 @@ h3 {
     background-color: var(--light);
     border-radius: 6px 6px 0 0;
     color: var(--red-dark);
-    font-family: "PT Mono", 'Courier New', Courier, monospace;
+    font-family: "Ubuntu Mono", 'Courier New', Courier, monospace;
     grid-area: header;
     padding: 1% 2%;
 }
@@ -106,7 +106,7 @@ h3 {
 .styleguide-code {
     background-color: var(--light);
     border-bottom: 1px solid var(--red-dark);
-    font-family: "PT Mono", 'Courier New', Courier, monospace;
+    font-family: "Ubuntu Mono", 'Courier New', Courier, monospace;
     grid-area: code;
     height: auto;
     padding: 1% 2%;
@@ -272,7 +272,7 @@ pre {
     border: 0 !important;
     border-radius: 6px;
     box-shadow: 0 0 3px #666;
-    font-family: "PT Mono", 'Courier New', Courier, monospace;
+    font-family: "Ubuntu Mono", 'Courier New', Courier, monospace;
     height: 95%;
     overflow: auto;
 }
@@ -283,8 +283,8 @@ pre .kwd, code .kwd { color: #E28964; } /* keyword - dark pink */
 pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
 pre .typ, code .typ { color: #89bdff; } /* type - light blue */
 pre .lit, code .lit { color: #3387CC; } /* literal - blue */
-pre .pun, code .pun { color: #222; } /* punctuation - white */
-pre .pln, code .pln { color: #222; } /* plaintext - white */
+pre .pun, code .pun { color: #444; } /* punctuation - white */
+pre .pln, code .pln { color: #444; } /* plaintext - white */
 pre .tag, code .tag { color: #89bdff; } /* html/xml tag    - light blue */
 pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
 pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
